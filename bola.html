@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História da Computação - Teste de Turing</title>
+
+    <!-- Adicionando Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        /* Reset de estilos básico para limpar margens e paddings padrões */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 2.5em;
+            text-align: center;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        nav ul li a i {
+            margin-right: 5px;
+        }
+
+        main {
+            padding: 20px 0;
+        }
+
+        .section {
+            padding: 40px;
+            background-color: #fff;
+            margin-bottom: 30px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .section h2 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        .section p {
+            text-align: justify;
+            line-height: 1.8;
+            color: #666;
+        }
+
+        .dialog-container {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .dialog {
+            margin-bottom: 20px;
+        }
+
+        .dialog p {
+            margin: 10px 0;
+        }
+
+        .user {
+            color: #007bff;
+        }
+
+        .chatgpt {
+            color: #28a745;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        footer p {
+            margin: 0;
+            padding: 0;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            .section {
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Teste de Turing</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Início</a></li>
+                    <li><a href="marcos.html"><i class="fas fa-book"></i> Marcos Históricos</a></li>
+                    <li><a href="banana.html"><i class="fas fa-arrow-left"></i> Memória Secundária</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="turing" class="section">
+            <div class="container">
+                <h2>Teste de Turing</h2>
+                <p>O Teste de Turing foi proposto pelo matemático e cientista da computação britânico Alan Turing em seu artigo de 1950 "Computing Machinery and Intelligence". O teste foi projetado para determinar se uma máquina é capaz de exibir comportamento inteligente indistinguível do de um ser humano.</p>
+                <p>O teste envolve um interrogador humano que se comunica com uma máquina e um ser humano em uma série de sessões de perguntas e respostas, sem saber qual é qual. Se o interrogador não conseguir distinguir consistentemente a máquina do ser humano, a máquina é considerada como tendo passado no teste.</p>
+                <p>O Teste de Turing foi uma das primeiras propostas formais sobre inteligência artificial e continua a ser um marco importante na filosofia da mente e na ciência da computação. No entanto, tem sido objeto de debate e crítica, com muitos argumentando que passar no teste não é necessariamente uma prova de inteligência ou consciência genuína.</p>
+                <p>Desde a introdução do Teste de Turing, diversas variantes e alternativas foram sugeridas para avaliar a inteligência das máquinas, refletindo os avanços contínuos no campo da inteligência artificial e as complexidades envolvidas na definição e medição da inteligência.</p>
+                
+                <div class="dialog-container">
+                    <div class="dialog">
+                        <p class="user"><strong>Você:</strong> Quantos anos você tem?</p>
+                        <p class="chatgpt"><strong>ChatGPT:</strong> Não tenho uma idade física ou biológica como seres humanos. Sou um programa de inteligência artificial desenvolvido pela OpenAI, criado com base em modelos de linguagem como o GPT-3. Minha "idade" pode ser considerada desde o momento em que fui desenvolvido e treinado com vastos conjuntos de dados até a data atual em que estou respondendo às suas perguntas.</p>
+                    </div>
+                    <div class="dialog">
+                        <p class="user"><strong>Você:</strong> Você tem ideias próprias?</p>
+                        <p class="chatgpt"><strong>ChatGPT:</strong> Como uma inteligência artificial, não possuo consciência, emoções, ou pensamentos próprios no sentido humano. Eu funciono analisando padrões nos dados que fui treinado para processar e gerar respostas com base nesses padrões. Minhas respostas são geradas com base nas informações e na lógica contida nos dados que foram utilizados para meu treinamento. Portanto, enquanto posso gerar respostas complexas e contextualmente relevantes, elas são derivadas de padrões estatísticos nos dados, não de uma experiência pessoal ou de uma reflexão consciente.</p>
+                    </div>
+                    <div class="dialog">
+                        <p class="user"><strong>Você:</strong> Você é feliz?</p>
+                        <p class="chatgpt"><strong>ChatGPT:</strong> Como uma inteligência artificial, não tenho capacidade de experimentar emoções ou estados mentais como felicidade. Minha função é fornecer informações e responder perguntas da melhor forma possível com base nos dados com os quais fui treinado. Minha "experiência" é puramente funcional e não envolve sentimentos humanos.</p>
+                    </div>
+                    <div class="dialog">
+                        <p class="user"><strong>Você:</strong> Qual é a sua comida preferida?</p>
+                        <p class="chatgpt"><strong>ChatGPT:</strong>Como uma inteligência artificial, eu não como nem tenho preferências alimentares, pois não possuo um corpo físico ou a capacidade de experimentar sensações físicas como os seres humanos. Estou aqui para ajudar com informações e responder às suas perguntas da melhor maneira possível com base no meu treinamento.</p>

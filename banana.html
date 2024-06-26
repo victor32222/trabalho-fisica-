@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memória Secundária</title>
+    <!-- Adicionando Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        /* Reset de estilos básico para limpar margens e paddings padrões */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 2em;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li a i {
+            margin-right: 5px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px 0;
+        }
+
+        .section {
+            padding: 40px;
+            background-color: #fff;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .section h2 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .section p {
+            text-align: justify;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        footer p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Responsividade básica para telas menores */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            .section {
+                padding: 30px;
+            }
+
+            .section h2 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Memória Secundária</h1>
+            <nav>
+                <ul>
+                    <li><a href="#memoria-volatil"><i class="far fa-lightbulb"></i> Memória Volátil</a></li>
+                    <li><a href="#memoria-nao-volatil"><i class="fas fa-database"></i> Memória Não Volátil</a></li>
+                    <li><a href="#memoria-secundaria"><i class="fas fa-hdd"></i> Memória Secundária</a></li>
+                    <li><a href="victor.html"><i class="fas fa-arrow-left"></i> Marcos Históricos</a></li>
+                    <li><a href="bola.html"><i class="fas fa-arrow-right"></i> Teste de Turing</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="memoria-volatil" class="section">
+            <div class="container">
+                <h2>Memória Volátil</h2>
+                <p>A memória volátil é um tipo de memória que perde seus dados quando a energia elétrica é desligada. Ela é usada principalmente para armazenamento temporário de dados que precisam ser rapidamente acessados e modificados pelo processador. Exemplos incluem a RAM (Memória de Acesso Aleatório).</p>
+            </div>
+        </section>
+
+        <section id="memoria-nao-volatil" class="section">
+            <div class="container">
+                <h2>Memória Não Volátil</h2>
+                <p>A memória não volátil é capaz de reter dados mesmo quando não há energia elétrica. Isso a torna ideal para armazenamento de dados de longo prazo, como arquivos do sistema operacional, programas e dados do usuário que não precisam de alterações frequentes. Exemplos incluem memórias flash (como SSDs) e discos rígidos.</p>
+            </div>
+        </section>
+
+        <section id="memoria-secundaria" class="section">
+            <div class="container">
+                <h2>Memória Secundária</h2>
+                <p>A memória secundária refere-se a dispositivos de armazenamento que são usados para armazenamento permanente de dados, mesmo após o desligamento do dispositivo. Ela geralmente é mais lenta que a memória principal (RAM), mas oferece maior capacidade de armazenamento. Exemplos comuns incluem discos rígidos (HDDs), unidades de estado sólido (SSDs), CDs, DVDs e unidades de fita magnética.</p>
+            </div>
+        </section>
+    </main>
+
+   
+</body>
+</html>
